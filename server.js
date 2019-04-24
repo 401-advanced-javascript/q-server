@@ -8,3 +8,6 @@ database.monitorEvent('create');
 database.monitorEvent('update');
 database.monitorEvent('delete');
 database.monitorEvent('error');
+
+const chat = new Q('chat');
+chat.monitorEvent('message');
